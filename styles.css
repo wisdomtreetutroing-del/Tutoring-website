@@ -1,8 +1,4 @@
-/* ================================
-   GOLDEN LUXURY TUTORING WEBSITE
-   Light Mode: Golden & White
-   Dark Mode: Golden & Black
-   ================================ */
+
 
 :root {
     --gold: #D4AF37;
@@ -437,7 +433,7 @@ html {
     gap: 15px;
     font-weight: 700;
     border: 2px solid var(--primary);
-    animation: floatCard 6s ease-in-out infinite;
+    /*animation: floatCard 6s ease-in-out infinite;*/
 }
 
 .float-card .icon {
