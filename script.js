@@ -110,7 +110,7 @@ function loadServices() {
             <div class="service-card">
                 <div class="service-icon">🎓</div>
                 <h3>Exam Preparation</h3>
-                <p>Focused exam prep with proven strategies to help you achieve top grades.</p>
+                <p>Focused prep with proven strategies to help you achieve top grades.</p>
             </div>
             <div class="service-card">
                 <div class="service-icon">👥</div>
