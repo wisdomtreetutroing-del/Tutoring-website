@@ -109,7 +109,7 @@ function loadServices() {
             </div>
             <div class="service-card">
                 <div class="service-icon">🎓</div>
-                <h3>Exam Preparation</h3>
+                <h3>Funtional Skills</h3>
                 <p>Focused prep with proven strategies to help you achieve top grades.</p>
             </div>
             <div class="service-card">
@@ -122,11 +122,11 @@ function loadServices() {
                 <h3>Subject Specialists</h3>
                 <p>Expert tutors in Maths, English, Science, and all major academic subjects.</p>
             </div>
-            <div class="service-card">
-                <div class="service-icon">⏰</div>
-                <h3>Flexible Scheduling</h3>
-                <p>Book sessions at times that work for you with our flexible scheduling options.</p>
-            </div>
+         //   <div class="service-card">
+         //       <div class="service-icon">⏰</div>
+         //       <h3>Flexible Scheduling</h3>
+          //      <p>Book sessions at times that work for you with our flexible scheduling options.</p>
+         //   </div>
         `;
     } else {
         grid.innerHTML = services.map(service => `
