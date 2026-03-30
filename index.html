@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Premium Tutoring Services - Excellence in Education</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&family=Playfair+Display:wght@700;800;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Theme Toggle Button -->
+    <button class="theme-toggle" id="themeToggle" onclick="toggleTheme()">
+        <span id="themeIcon">🌙</span>
+    </button>
+
+    <!-- Background Decoration -->
+    <div class="bg-decoration">
+        <div class="golden-circle circle-1"></div>
+        <div class="golden-circle circle-2"></div>
+        <div class="golden-circle circle-3"></div>
+    </div>
+
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container">
+            <div class="nav-brand">
+                <div class="logo-circle" id="displayLogo">W</div>
+                <div class="brand-text">
+                    <span class="brand-name" id="displayCompanyName">Wisdom Tree Tutoring</span>
+                    <span class="brand-tag">EXCELLENCE IN EDUCATION</span>
+                </div>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#testimonials">Reviews</a></li>
+                <li><a href="#faq">FAQ</a></li>
+                <li><a href="#contact" class="nav-btn">Contact Us</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="container">
+            <div class="hero-content-center">
+                
+                <h1 id="heroTitle">Excellence in <br><span class="gradient-text">Private Tuition</span></h1>
+                <p id="heroSubtitle">Transform your learning journey with personalized tutoring from expert educators. Achieve excellence, build confidence, and unlock your full potential.</p>
+                <div class="hero-btns">
+                    <a href="#contact" class="btn btn-primary" id="heroButton">Get Started Today →</a>
+                    <a href="#services" class="btn btn-outline">Explore Services</a>
+                </div>
+                <div class="hero-stats">
+                    <div class="stat"><span class="num">500+</span><span class="label">Students Taught</span></div>
+                    <div class="stat"><span class="num">98%</span><span class="label">Success Rate</span></div>
+                    <div class="stat"><span class="num">15+</span><span class="label">Expert Tutors</span></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services -->
+    <section class="services" id="services">
+        <div class="container">
+            <div class="section-head">
+                <span class="tag">WHAT WE OFFER</span>
+                <h2>Our Premium Services</h2>
+                <p>Comprehensive tutoring solutions designed for every learning style and academic goal</p>
+            </div>
+            <div class="services-grid" id="servicesGrid">
+                <div class="loading"><div class="spinner"></div></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About -->
+    <section class="about" id="about">
+        <div class="container">
+            <div class="about-content-full">
+                <span class="tag">ABOUT US</span>
+                <h2 id="aboutTitle">Why Choose Wisdom Tree Tutoring?</h2>
+                <p id="aboutContent">At Wisdom Tree Tutoring, we believe every student has the potential to excel. Our mission is to provide exceptional educational support through qualified, experienced tutors who are passionate about teaching. With over a decade of experience, we've helped hundreds of students achieve their academic goals and build confidence in their abilities.</p>
+                
+                <p class="about-extra">Our personalized approach ensures each student receives the attention and guidance they need to thrive. We don't just teach subjects – we inspire a love of learning, develop critical thinking skills, and empower students to reach their full potential. Whether you're preparing for exams, catching up on missed work, or pushing ahead, we're here to support your educational journey every step of the way.</p>
+                
+                <div class="features-grid">
+                    <div class="feat"><span>✓</span> <strong>Qualified & Experienced Tutors</strong> - All our tutors hold relevant qualifications and have proven track records of success</div>
+                    <div class="feat"><span>✓</span> <strong>Personalized Learning Plans</strong> - Tailored to your individual needs, learning style, and academic goals</div>
+                    <div class="feat"><span>✓</span> <strong>Flexible Scheduling Options</strong> - Book sessions at times that work for you, online or in-person</div>
+                    <div class="feat"><span>✓</span> <strong>Proven Track Record</strong> - 98% success rate with students achieving their target grades</div>
+                    <div class="feat"><span>✓</span> <strong>Comprehensive Subject Coverage</strong> - From Maths and English to Sciences and Functional Skills</div>
+                    <div class="feat"><span>✓</span> <strong>Ongoing Progress Monitoring</strong> - Regular feedback and assessment to track your improvement</div>
+                </div>
+                
+                <div class="about-cta">
+                    <a href="#contact" class="btn btn-primary">Book Free Consultation →</a>
+                    <a href="#services" class="btn btn-outline">Explore Our Services</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials -->
+    <section class="testimonials" id="testimonials">
+        <div class="container">
+            <div class="section-head">
+                <span class="tag">SUCCESS STORIES</span>
+                <h2>What Our Students Say</h2>
+                <p>Real experiences from students and parents who achieved their goals with us</p>
+            </div>
+            <div class="test-grid" id="testimonialsGrid">
+                <div class="loading"><div class="spinner"></div></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ -->
+    <section class="faq" id="faq">
+        <div class="container">
+            <div class="section-head">
+                <span class="tag">HAVE QUESTIONS?</span>
+                <h2>Frequently Asked Questions</h2>
+                <p>Everything you need to know about our tutoring services</p>
+            </div>
+            <div class="faq-list">
+                <div class="faq-item">
+                    <div class="faq-q" onclick="toggleFAQ(this)"><span>What subjects do you offer tutoring in?</span><div class="icon">+</div></div>
+                    <div class="faq-a"><p>We offer comprehensive tutoring across all major subjects including Maths, English, Science (Physics, Chemistry, Biology), and Functional Skills. We also provide support in other subjects upon request.</p></div>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-q" onclick="toggleFAQ(this)"><span>What are your tutoring rates?</span><div class="icon">+</div></div>
+                    <div class="faq-a"><p>Our rates vary depending on the level of study, subject, and whether you choose one-to-one or group sessions. Please contact us for a personalized quote tailored to your needs.</p></div>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-q" onclick="toggleFAQ(this)"><span>Do you offer online tutoring?</span><div class="icon">+</div></div>
+                    <div class="faq-a"><p>Yes! We offer both in-person and online tutoring sessions. Our online lessons use interactive platforms that make learning engaging and effective from the comfort of your home.</p></div>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-q" onclick="toggleFAQ(this)"><span>How do I book a session?</span><div class="icon">+</div></div>
+                    <div class="faq-a"><p>Simply fill out the contact form below or give us a call. We'll discuss your requirements, match you with the perfect tutor, and schedule your first session at a time that works for you.</p></div>
+                </div>
+                
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact - Google Form Embedded -->
+    <section class="contact" id="contact">
+        <div class="container">
+            <div class="contact-grid">
+                <div class="contact-info">
+                    <span class="tag">GET IN TOUCH</span>
+                    <h2>Ready to Start Your Journey?</h2>
+                    <p>Contact us today for a free consultation and discover how we can help you achieve your academic goals.</p>
+                    <div class="c-cards">
+                        <div class="c-card">
+                            <div class="c-icon">📧</div>
+                            <div><small>Email Us</small><p id="displayEmail">wisdomtreetutroing@gmail.com</p></div>
+                        </div>
+                        <div class="c-card">
+                            <div class="c-icon">📱</div>
+                            <div><small>Call Us</small><p id="displayPhone">+44 123 456 7890</p></div>
+                        </div>
+                    </div>
+                    <div class="hours">
+                        <h4>Office Hours</h4>
+                        <div class="h-list">
+                            <div><span>Monday - Friday</span><span>9:00 AM - 6:00 PM</span></div>
+                            <div><span>Saturday</span><span>10:00 AM - 4:00 PM</span></div>
+                            <div><span>Sunday</span><span>Closed</span></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="contact-form">
+                    <iframe id="contactFormFrame" class="form-embed" src="" frameborder="0"></iframe>
+                    <p style="text-align: center; margin-top: 20px; color: var(--text-light); font-size: 14px;">
+                        src="<iframe src="https://docs.google.com/forms/d/e/1FAIpQLScj4TMsRfGtRueu20gKv08dHUZTutCmAlifaTXrRP_GidmE7g/viewform?embedded=true" width="640" height="962" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>"<br>
+                        </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="f-col">
+                    <div class="f-logo">
+                        <div class="logo-circle small">W</div>
+                        <span id="footerCompanyName">Wisdom Tree Tutoring</span>
+                    </div>
+                    <p>Empowering students to achieve academic excellence through personalized tutoring and expert guidance.</p>
+                </div>
+                <div class="f-col">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#services">Services</a></li>
+                        <li><a href="#about">About Us</a></li>
+                        <li><a href="#testimonials">Testimonials</a></li>
+                    </ul>
+                </div>
+                <div class="f-col">
+                    <h4>Services</h4>
+                    <ul>
+                        <li><a href="#services">One-to-One Tutoring</a></li>
+                        <li><a href="#services">Online Lessons</a></li>
+                        <li><a href="#services">Exam Preparation</a></li>
+                        <li><a href="#services">Group Classes</a></li>
+                    </ul>
+                </div>
+                <div class="f-col">
+                    <h4>Contact</h4>
+                    <ul>
+                        <li><a href="#contact">Get in Touch</a></li>
+                        <li><a href="#faq">FAQs</a></li>
+                        <li><a href="admin.html">Admin Panel</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 <span id="footerCompanyName2">Wisdom Tree Tutoring</span>. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
