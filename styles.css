@@ -297,11 +297,10 @@ html {
     background: linear-gradient(135deg, var(--primary), var(--secondary));
     padding: 10px 25px;
     border-radius: 30px;
-    font-size: 13px;
+    font-size: 15px;
     font-weight: 800;
     margin-bottom: 30px;
     box-shadow: 0 4px 15px var(--shadow);
-    border: 2px solid var(--secondary);
     letter-spacing: 1px;
 }
 
