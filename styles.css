@@ -62,8 +62,6 @@ body {
 
 /* ===== NAVIGATION ===== */
 .navbar {
-    position: sticky;
-    top: 0;
     background: var(--white);
     border-bottom: 2px solid var(--border);
     padding: 18px 0;
