@@ -80,7 +80,7 @@ body {
 .nav-brand { display: flex; align-items: center; gap: 14px; }
 
 .logo-circle {
-    width: 28px;
+
     height: 28px;
     background: linear-gradient(135deg, var(--primary), var(--secondary));
     border-radius: 50%;
@@ -96,8 +96,8 @@ body {
 }
 
 .logo-circle img {
-    width: 60%;
-    height: 60%;
+    width: 50%;
+    height: 0%;
     object-fit: contain;
     padding: 5px;
 }
