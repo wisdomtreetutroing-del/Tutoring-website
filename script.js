@@ -71,8 +71,6 @@ document.addEventListener('DOMContentLoaded', () => {
             </div>
         `).join('');
     }
-});
-
 // ===== FORMSPREE CONTACT FORM =====
 const form = document.getElementById('contactForm');
 if (form) {
@@ -124,3 +122,4 @@ if (form) {
         });
     });
 }
+    });
